@@ -17,8 +17,8 @@ const Navbar = () => {
               to={link.url}
               key={link.id}
               className={({ isActive }) =>
-                `text-slate-500 lg:block hidden hover:text-black transition-colors ease-in duration-300 ${
-                  isActive ? "text-black font-semibold" : ""
+                `lg:block hidden hover:text-black transition-colors ease-in duration-300 ${
+                  isActive ? "text-[#FF914D] font-bold" : ""
                 }`
               }
             >
@@ -58,8 +58,8 @@ const Navbar = () => {
                   key={link.id}
                   onClick={() => setIsOpen(false)}
                   className={({ isActive }) =>
-                    `text-slate-600 hover:text-black transition-colors ease-in duration-300 ${
-                      isActive ? "text-black font-semibold" : ""
+                    `hover:text-black transition-colors ease-in duration-300 ${
+                      isActive ? "text-[#FF914D] font-bold" : ""
                     }`
                   }
                 >
