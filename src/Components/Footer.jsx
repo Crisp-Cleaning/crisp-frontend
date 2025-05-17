@@ -32,10 +32,10 @@ const Footer = () => {
           <ContactForm />
         </div>
       </div>
-      <hr className="mt-6" />
-      <span className="flex items-center justify-between mt-6">
-        <small>CrispCleaningCorp @ 2024</small>
-        <small>Terms & Conditions</small>
+      <hr className="mt-8" />
+      <span className="flex items-center justify-between mt-8">
+        <small className="text-left">CrispCleaningCorp@2025</small>
+        <small className="text-right">Terms & Conditions</small>
       </span>
     </footer>
   );
