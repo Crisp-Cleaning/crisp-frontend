@@ -2,7 +2,7 @@ import React from "react";
 
 const FaqsHeader = () => {
   return (
-    <header className="mt-20">
+    <header className="mt-20 p-12 text-center">
       <div className="flex justify-center items-center flex-col">
         <span className="bg-[#FF914D] px-6 py-2 text-white font-semibold rounded-full">
           Have a Question?

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const FaqCta = () => {
   return (
-    <section className="p-12 flex justify-center">
+    <section className="p-12 flex justify-center text-center">
       <div className="bg-gradient-to-b from-[#FFA56E] to-[#FF914D] lg:w-[80%] gap-6 rounded-xl text-white p-8 flex flex-col items-center justify-center">
         <h1 className="text-2xl font-bold">Seeking Further Assistance?</h1>
         <p className="text-center">

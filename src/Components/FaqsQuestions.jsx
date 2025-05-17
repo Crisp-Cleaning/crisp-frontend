@@ -7,7 +7,7 @@ const FaqsQuestions = () => {
 
   return (
     <section className="flex justify-center mt-20">
-      <div className="w-[70%]">
+      <div className="lg:w-[70%] w-[90%]">
         {/* Nav Pills */}
         <div className="grid grid-cols-2 pt-4 border border-slate-200 bg-white shadow-lg rounded-md">
           <button
