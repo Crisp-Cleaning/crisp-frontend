@@ -3,7 +3,7 @@ import React from "react";
 const SectionFour = () => {
   return (
     <section className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 md:px-12 items-center">
-      <img src="/images/bathroom.png" className="mt-40" alt="" />
+      <img src="/images/bathroom.png" className="lg:mt-40 -mt-40" alt="" />
 
       <div className="lg:pl-46">
         <img src="/liberate.svg" className="w-12" alt="" />
