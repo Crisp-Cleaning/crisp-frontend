@@ -120,3 +120,149 @@ maintaining your privacy and security.`,
     },
   ],
 };
+
+export const dummyCards = [
+  {
+    name: "Sarah Thompson",
+    role: "Manager @ McDonalds",
+    profile: "/images/sarah.jpg",
+    logo: "/images/md.svg",
+    time: "4:22 AM - Nov 28, 2023",
+    content: [
+      "I've used several cleaning services in the past, but Crisp Cleaning Corp truly stands out. The attention to detail is impeccable, and my home has never looked this clean and organized. The team went above and beyond to ensure every nook and cranny was spotless.",
+      "Moreover, the customer service was outstanding. The staff was friendly, responsive, and accommodating to my schedule. It’s rare to find a company that values its customers as much as Sparkle Clean Corp does.",
+      "Hats off to the Clean Team! They tackled the toughest stains with ease, leaving my office looking pristine. Their attention to detail and friendly staff make them my go-to cleaning company.",
+    ],
+  },
+  {
+    name: "James O'Hara",
+    role: "Office Admin @ TechSpace",
+    profile: "/images/james.jpg",
+    logo: "/images/t-logo.png",
+    time: "2:15 PM - Oct 20, 2023",
+    content: [
+      "Absolutely top-tier service. My office has never felt so fresh.",
+      "Very professional staff who respect time and space. Highly recommended!",
+    ],
+  },
+];
+
+export const reviews = [
+  {
+    name: "Sarah Thompson",
+    role: "Manager @ McDonalds",
+    profile: "/images/sarah.jpg",
+    logo: "/images/md.svg",
+    time: "4:22 AM - Nov 28, 2023",
+    content: [
+      "I've used several cleaning services in the past, but Crisp Cleaning Corp truly stands out. The attention to detail is impeccable, and my home has never looked this clean and organized. The team went above and beyond to ensure every nook and cranny was spotless.",
+      "Moreover, the customer service was outstanding. The staff was friendly, responsive, and accommodating to my schedule. It’s rare to find a company that values its customers as much as Sparkle Clean Corp does.",
+      "Hats off to the Clean Team! They tackled the toughest stains with ease, leaving my office looking pristine. Their attention to detail and friendly staff make them my go-to cleaning company.",
+    ],
+  },
+  {
+    name: "Sarah Thompson",
+    role: "Manager @ McDonalds",
+    profile: "/images/sarah.jpg",
+    logo: "/images/md.svg",
+    time: "4:22 AM - Nov 28, 2023",
+    content: [
+      "I've used several cleaning services in the past, but Crisp Cleaning Corp truly stands out. The attention to detail is impeccable, and my home has never looked this clean and organized. The team went above and beyond to ensure every nook and cranny was spotless.",
+      "Moreover, the customer service was outstanding. The staff was friendly, responsive, and accommodating to my schedule. It’s rare to find a company that values its customers as much as Sparkle Clean Corp does.",
+      "Hats off to the Clean Team! They tackled the toughest stains with ease, leaving my office looking pristine. Their attention to detail and friendly staff make them my go-to cleaning company.",
+    ],
+  },
+  {
+    name: "Sarah Thompson",
+    role: "Manager @ McDonalds",
+    profile: "/images/sarah.jpg",
+    logo: "/images/md.svg",
+    time: "4:22 AM - Nov 28, 2023",
+    content: [
+      "I've used several cleaning services in the past, but Crisp Cleaning Corp truly stands out. The attention to detail is impeccable, and my home has never looked this clean and organized. The team went above and beyond to ensure every nook and cranny was spotless.",
+      "Moreover, the customer service was outstanding. The staff was friendly, responsive, and accommodating to my schedule. It’s rare to find a company that values its customers as much as Sparkle Clean Corp does.",
+      "Hats off to the Clean Team! They tackled the toughest stains with ease, leaving my office looking pristine. Their attention to detail and friendly staff make them my go-to cleaning company.",
+    ],
+  },
+];
+
+export const reviewVideos = [
+  {
+    name: "Sarah Thompson",
+    role: "Manager @ McDonalds",
+    profile: "/images/sarah.jpg",
+    logo: "/images/md.svg",
+    time: "4:22 AM - Nov 28, 2023",
+    video: "/videos/vid_1.mp4",
+    content: [
+      "I've used several cleaning services in the past, but Crisp Cleaning Corp truly stands out. The attention to detail is impeccable, and my home has never looked this clean and organized. The team went above and beyond to ensure every nook and cranny was spotless.",
+      "Moreover, the customer service was outstanding. The staff was friendly, responsive, and accommodating to my schedule. It’s rare to find a company that values its customers as much as Sparkle Clean Corp does.",
+      "Hats off to the Clean Team! They tackled the toughest stains with ease, leaving my office looking pristine. Their attention to detail and friendly staff make them my go-to cleaning company.",
+    ],
+  },
+  {
+    name: "Sarah Thompson",
+    role: "Manager @ McDonalds",
+    profile: "/images/sarah.jpg",
+    logo: "/images/md.svg",
+    time: "4:22 AM - Nov 28, 2023",
+    video: "/videos/vid_1.mp4",
+    content: [
+      "I've used several cleaning services in the past, but Crisp Cleaning Corp truly stands out. The attention to detail is impeccable, and my home has never looked this clean and organized. The team went above and beyond to ensure every nook and cranny was spotless.",
+      "Moreover, the customer service was outstanding. The staff was friendly, responsive, and accommodating to my schedule. It’s rare to find a company that values its customers as much as Sparkle Clean Corp does.",
+      "Hats off to the Clean Team! They tackled the toughest stains with ease, leaving my office looking pristine. Their attention to detail and friendly staff make them my go-to cleaning company.",
+    ],
+  },
+  {
+    name: "Sarah Thompson",
+    role: "Manager @ McDonalds",
+    profile: "/images/sarah.jpg",
+    logo: "/images/md.svg",
+    time: "4:22 AM - Nov 28, 2023",
+    video: "/videos/vid_1.mp4",
+    content: [
+      "I've used several cleaning services in the past, but Crisp Cleaning Corp truly stands out. The attention to detail is impeccable, and my home has never looked this clean and organized. The team went above and beyond to ensure every nook and cranny was spotless.",
+      "Moreover, the customer service was outstanding. The staff was friendly, responsive, and accommodating to my schedule. It’s rare to find a company that values its customers as much as Sparkle Clean Corp does.",
+      "Hats off to the Clean Team! They tackled the toughest stains with ease, leaving my office looking pristine. Their attention to detail and friendly staff make them my go-to cleaning company.",
+    ],
+  },
+  {
+    name: "Sarah Thompson",
+    role: "Manager @ McDonalds",
+    profile: "/images/sarah.jpg",
+    logo: "/images/md.svg",
+    time: "4:22 AM - Nov 28, 2023",
+    video: "/videos/vid_1.mp4",
+    content: [
+      "I've used several cleaning services in the past, but Crisp Cleaning Corp truly stands out. The attention to detail is impeccable, and my home has never looked this clean and organized. The team went above and beyond to ensure every nook and cranny was spotless.",
+      "Moreover, the customer service was outstanding. The staff was friendly, responsive, and accommodating to my schedule. It’s rare to find a company that values its customers as much as Sparkle Clean Corp does.",
+      "Hats off to the Clean Team! They tackled the toughest stains with ease, leaving my office looking pristine. Their attention to detail and friendly staff make them my go-to cleaning company.",
+    ],
+  },
+  {
+    name: "Sarah Thompson",
+    role: "Manager @ McDonalds",
+    profile: "/images/sarah.jpg",
+    logo: "/images/md.svg",
+    time: "4:22 AM - Nov 28, 2023",
+    video: "/videos/vid_1.mp4",
+    content: [
+      "I've used several cleaning services in the past, but Crisp Cleaning Corp truly stands out. The attention to detail is impeccable, and my home has never looked this clean and organized. The team went above and beyond to ensure every nook and cranny was spotless.",
+      "Moreover, the customer service was outstanding. The staff was friendly, responsive, and accommodating to my schedule. It’s rare to find a company that values its customers as much as Sparkle Clean Corp does.",
+      "Hats off to the Clean Team! They tackled the toughest stains with ease, leaving my office looking pristine. Their attention to detail and friendly staff make them my go-to cleaning company.",
+    ],
+  },
+  {
+    name: "Sarah Thompson",
+    role: "Manager @ McDonalds",
+    profile: "/images/sarah.jpg",
+    logo: "/images/md.svg",
+    time: "4:22 AM - Nov 28, 2023",
+    video: "/videos/vid_1.mp4",
+    content: [
+      "I've used several cleaning services in the past, but Crisp Cleaning Corp truly stands out. The attention to detail is impeccable, and my home has never looked this clean and organized. The team went above and beyond to ensure every nook and cranny was spotless.",
+      "Moreover, the customer service was outstanding. The staff was friendly, responsive, and accommodating to my schedule. It’s rare to find a company that values its customers as much as Sparkle Clean Corp does.",
+      "Hats off to the Clean Team! They tackled the toughest stains with ease, leaving my office looking pristine. Their attention to detail and friendly staff make them my go-to cleaning company.",
+    ],
+  },
+];

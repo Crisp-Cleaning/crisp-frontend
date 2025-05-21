@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 @import "tailwindcss";
-
 
 *::-webkit-scrollbar {
   display: hidden;
@@ -12,4 +11,8 @@
 
 .btn_2 {
   @apply bg-white text-[#FF914D] px-6 py-2 font-semibold rounded-full cursor-pointer hover:translate-y-0.5 duration-300 ease-in-out;
+}
+
+.btn_3 {
+  @apply text-[#FF914D] px-8 font-medium mt-8 border border-slate-200 rounded-full py-2 shadow-[#FF914D] shadow-2xl hover:translate-y-0.5 duration-300 ease-in transition-all cursor-pointer;
 }

@@ -7,16 +7,13 @@ import SectionThree from "../Components/SectionThree";
 import SectionFour from "../Components/SectionFour";
 import SectionFive from "../Components/SectionFive";
 import SectionSix from "../Components/SectionSix";
-import Footer from "../Components/Footer";
+import Layout from "../Layouts/Layout";
 
 const Home = () => {
   return (
     <>
-      <div className="p-8">
-        <Navbar />
-      </div>
-      <Header />
-      <main>
+      <Layout>
+        <Header />
         <div className="bg-[#1F3042] mt-30">
           <OurStory />
         </div>
@@ -27,8 +24,7 @@ const Home = () => {
         </div>
         <SectionFive />
         <SectionSix />
-        <Footer />
-      </main>
+      </Layout>
     </>
   );
 };

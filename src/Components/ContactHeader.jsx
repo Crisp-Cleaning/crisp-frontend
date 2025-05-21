@@ -6,7 +6,7 @@ const ContactHeader = () => {
   return (
     <>
       <header className="bg-gradient-to-b from-[#FFA771] to-[#FF914D]">
-        <div className="p-8">
+        <div className="p-8 z-50">
           <Navbar />
         </div>
         <div className="text-white flex justify-center flex-col text-center gap-6 items-center pb-60 p-8">
