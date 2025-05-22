@@ -1,14 +1,17 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
+import FaqsHeader from "../Components/FaqsHeader";
+import FaqsQuestions from "../Components/FaqsQuestions";
+import FaqCta from "../Components/FaqCta";
+import Layout from "../Layouts/Layout";
 
 const Faqs = () => {
   return (
     <>
-      <main>
-        <div className="p-8">
-          <Navbar />
-        </div>
-      </main>
+      <Layout>
+        <FaqsHeader />
+        <FaqsQuestions />
+        <FaqCta />
+      </Layout>
     </>
   );
 };

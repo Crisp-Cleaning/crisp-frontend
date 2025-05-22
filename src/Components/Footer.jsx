@@ -6,10 +6,10 @@ import ContactForm from "./FooterContactForm";
 const Footer = () => {
   return (
     <footer className="p-12">
-      <div className="mt-8 grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 gap-4">
+      <div className="mt-8 grid lg:grid-cols-5 gap-4">
         <img src="/logo.svg" className="w-52 -ml-20" />
 
-        <div>
+        <div className="lg:col-span-1 col-span-2">
           <h5 className="text-lg font-bold">Sitemap</h5>
           <h5 className="text-slate-500 mt-4">
             {sitemap.map((site, index) => (
@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h5 className="text-lg font-bold mb-4">Help & Support</h5>
+          <h5 className="text-lg col-span-1 font-bold mb-4">Help & Support</h5>
           <h5 className="text-slate-500">Contact</h5>
           <small className="text-slate-500">
             support@crispcleaningcorp.com.au
@@ -32,10 +32,10 @@ const Footer = () => {
           <ContactForm />
         </div>
       </div>
-      <hr className="mt-6" />
-      <span className="flex items-center justify-between mt-6">
-        <small>CrispCleaningCorp @ 2024</small>
-        <small>Terms & Conditions</small>
+      <hr className="mt-8" />
+      <span className="flex items-center justify-between mt-8">
+        <small className="text-left">CrispCleaningCorp@2025</small>
+        <small className="text-right">Terms & Conditions</small>
       </span>
     </footer>
   );

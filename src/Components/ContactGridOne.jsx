@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactGridOne = () => {
   return (
-    <div className="bg-gradient-to-b col-span-1 from-[#FF914D] to-[#FFAB77] p-20 rounded-tr-lg rounded-br-lg">
+    <div className="bg-gradient-to-b lg:col-span-1 md:col-span-2 from-[#FF914D] to-[#FFAB77] p-12 rounded-tr-lg rounded-br-lg">
       <div>
         <h1 className="text-2xl font-bold text-white">Get In Touch</h1>
         <h5 className="text-white mt-6">

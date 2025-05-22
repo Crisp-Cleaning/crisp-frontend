@@ -2,8 +2,8 @@ import React from "react";
 
 const SectionSix = () => {
   return (
-    <section className="px-6 md:px-12 py-12 flex justify-center">
-      <div className="bg-gradient-to-b from-[#FFA56E] to-[#FF914D] w-[80%] gap-6 rounded-xl text-white p-8 flex flex-col items-center justify-center">
+    <section className="py-12 px-6 flex justify-center">
+      <div className="bg-gradient-to-b from-[#FFA56E] to-[#FF914D] lg:w-[80%] gap-6 rounded-xl text-white p-8 flex flex-col items-center justify-center">
         <h1 className="text-2xl font-bold">Empower Your Space</h1>
         <p className="text-center">
           The Dirt doesn't stand a chance – it wants your environment dull,

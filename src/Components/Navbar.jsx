@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="relative z-50">
-      <div className="px-4 py-2 rounded-full shadow-md border bg-white border-slate-200 flex items-center justify-between">
+      <div className="px-4 py-2 rounded-full shadow-xl border bg-white border-slate-200 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <img src="/logo.svg" className="-ml-6 w-56" alt="Logo" />
           {navDetails.map((link) => (
@@ -17,8 +17,8 @@ const Navbar = () => {
               to={link.url}
               key={link.id}
               className={({ isActive }) =>
-                `text-slate-500 lg:block hidden hover:text-black transition-colors ease-in duration-300 ${
-                  isActive ? "text-black font-semibold" : ""
+                `lg:block hidden hover:text-black transition-colors ease-in duration-300 ${
+                  isActive ? "text-[#FF914D] font-bold" : ""
                 }`
               }
             >
@@ -58,8 +58,8 @@ const Navbar = () => {
                   key={link.id}
                   onClick={() => setIsOpen(false)}
                   className={({ isActive }) =>
-                    `text-slate-600 hover:text-black transition-colors ease-in duration-300 ${
-                      isActive ? "text-black font-semibold" : ""
+                    `hover:text-black transition-colors ease-in duration-300 ${
+                      isActive ? "text-[#FF914D] font-bold" : ""
                     }`
                   }
                 >

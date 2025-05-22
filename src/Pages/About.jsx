@@ -1,19 +1,32 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
+import Header from "../Components/Header";
+import OurStory from "../Components/OurStory";
+import WhyChooseUs from "../Components/WhyChooseUs";
+import SectionThree from "../Components/SectionThree";
+import SectionFour from "../Components/SectionFour";
+import SectionFive from "../Components/SectionFive";
+import SectionSix from "../Components/SectionSix";
+import Layout from "../Layouts/Layout";
 
-const About = () => {
+const Home = () => {
   return (
     <>
-      <main>
-        <div className="p-8">
-          <Navbar />
+      <Layout>
+        <Header />
+        <div className="bg-[#1F3042] mt-30">
+          <OurStory />
         </div>
-        <div className="flex justify-center items-center h-screen text-center p-10">
-          <h1 className="text-5xl font-black">Nothing Here Yet!</h1>
+        <WhyChooseUs />
+        <SectionThree />
+        <div className="bg-[#1F3042] lg:-mt-40">
+          <SectionFour />
         </div>
-      </main>
+        <SectionFive />
+        <SectionSix />
+      </Layout>
     </>
   );
 };
 
-export default About;
+export default Home;

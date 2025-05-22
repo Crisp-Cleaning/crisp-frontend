@@ -3,7 +3,7 @@ import React from "react";
 const SectionThree = () => {
   return (
     <section className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 md:px-12 py-12 items-center">
-      <div className="lg:pl-46">
+      <div className="lg:pl-46 lg:mb-0 mb-40">
         <img src="/handshake.svg" className="w-12" alt="" />
 
         <h1 className="text-3xl font-bold mt-4">
@@ -23,7 +23,7 @@ const SectionThree = () => {
         </p>
       </div>
 
-      <img src="/images/cleaning.png" alt="" />
+      <img src="/images/cleaning.png" className="lg:order-1 -order-1" alt="" />
     </section>
   );
 };
